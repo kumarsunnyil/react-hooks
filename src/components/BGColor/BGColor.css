@@ -1,0 +1,18 @@
+.black-btn {
+  color: white;
+  background-color: black;
+  width: 200px;
+  height: 200px;
+}
+
+.white-btn {
+    color: black;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+  }
+
+  .parent-container {
+    margin-left: 300px;
+  }
+  
