@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+// positioning context
+div {
+  background: white;
+  
+  top: 22px;
+  margin-top: 10px;
+  padding-top: 10px;
+
+  &.user-data {
+      
+      img{
+        width: 150px;
+        height: 150px;
+    }
+    span {
+      border: 1px solid black;
+      width: 300px;
+      
+    }
+  }
+}

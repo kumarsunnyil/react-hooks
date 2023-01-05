@@ -1,12 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { Button } from "react-bootstrap";
+import { LoginContext } from "../../Context/LoginContext";
+
 
 const Counter = () => {
   const [count, setCount] = useState(0);
-
+  const {username, showProfile} = useContext(LoginContext);
   return (
     <div>
-      <h1> Counter </h1>
+      <h1> Counter For {username}</h1>
       <hr />
       <h6> UseState</h6>
       <hr />
