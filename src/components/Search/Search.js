@@ -26,9 +26,9 @@ const Search = () => {
           })
           .map((data, key) => {
             return (
-              <div key={key}>
+              <div className="container" key={key}>
                 
-                <div>
+                <div className="row">
                   <img className="profile-image" src={data.avatar} />
                 </div>
                 <div className="profile-details">

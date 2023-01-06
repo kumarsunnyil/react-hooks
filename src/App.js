@@ -1,14 +1,10 @@
-import { useState } from "react";
 import "./App.css";
-import Search from "./components/Search/Search";
-
+import GenPass from "./components/GenPass/GenPass";
 
 function App() {
-  const [showProfile, setShowProfile] = useState(false);
-  const [username, setUsername] = useState("");
   return (
     <div className="App">
-    <Search />      
+    <GenPass />       
     </div>
   );
 }
